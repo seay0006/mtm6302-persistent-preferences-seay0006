@@ -44,18 +44,23 @@
   </tbody>
 </table>
     </div>
-
-    
-        <aside class="preferences-section">
-            <h2>Preferences</h2>
-            <!-- dark/light mode toggle -->
-            <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" id="darkModeToggle">
-                <label class="form-check-label" for="darkModeToggle">Dark Mode</label>
-            </div>
-        </div>
+    <aside class="preferences-section">
+        <h2>Preferences</h2>
+    <!-- dark/light mode toggle -->
+        <label for="themeSelect" class="form-label">Theme</label>
+            <select class="form-select" id="themeSelect">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select>
+    <!-- list style selection section -->
+    <label for="listStyleSelect" class="form-label mt-3">List Style</label>
+        <select class="form-select" id="listStyleSelect">
+            <option value="striped">Striped</option>
+            <option value="dark">Dark</option>
+            <option value="bordered">Bordered</option>
+        </select>
     </aside>
-    
+
     <!-- linking js -->
      <script src="script.js"></script>
      </section>
